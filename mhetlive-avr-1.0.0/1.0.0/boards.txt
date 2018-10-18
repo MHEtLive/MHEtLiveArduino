@@ -1,0 +1,19 @@
+# See: http://code.google.com/p/arduino/wiki/Platforms
+
+menu.cpu=Processor
+
+##############################################################
+
+MHETtiny88.name=MH-ET LIVE Tiny88(16.0MHz)
+MHETtiny88.upload.using=micronucleusprog
+MHETtiny88.upload.protocol=usb
+MHETtiny88.upload.tool=micronucleus
+MHETtiny88.upload.maximum_size=6012
+MHETtiny88.build.mcu=attiny88
+MHETtiny88.build.f_cpu=16000000L
+MHETtiny88.build.board=AVR_DIGISPARKPRO
+MHETtiny88.build.core=tiny88
+MHETtiny88.build.variant=tiny88
+MHETtiny88.upload.wait_for_upload_port = false
+MHETtiny88.upload.use_1200bps_touch = false
+MHETtiny88.upload.disable_flushing = false
